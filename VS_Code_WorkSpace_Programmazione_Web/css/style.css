@@ -1,0 +1,49 @@
+div#menu {
+    float: left;
+    width: 100%;
+    background-color: #f3f3f3;
+    margin-bottom: 15px;
+}
+
+div#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div#menu li {
+    float: left;
+    border-right: 1pt solid lightgrey;
+    color: black;
+    padding:  10px;
+}
+
+div#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+div#menu a:hover {
+    background-color: darkgray;
+}
+
+div#menu li ul {
+    display: none;
+}
+
+div#menu li:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 1pt solid black;
+    width: 160px;
+}
+
+div#menu li li {
+    border: none;
+}
+
+li a.active {
+    background-color: lightgray;
+}
