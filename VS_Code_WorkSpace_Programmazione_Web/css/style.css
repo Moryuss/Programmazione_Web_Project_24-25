@@ -1,7 +1,7 @@
 div#menu {
     float: left;
     width: 100%;
-    background-color: #f3f3f3;
+    background: #f3f3f3;
     margin-bottom: 15px;
 }
 
@@ -13,18 +13,18 @@ div#menu ul {
 
 div#menu li {
     float: left;
-    border-right: 1pt solid lightgrey;
+    padding: 10px;
+    border-right: 1px solid lightgrey;
     color: black;
-    padding:  10px;
 }
 
 div#menu a {
     text-decoration: none;
-    color: black;
+    color: #000;
 }
 
 div#menu a:hover {
-    background-color: darkgray;
+    background-color: darkgrey;
 }
 
 div#menu li ul {
@@ -35,8 +35,8 @@ div#menu li:hover ul {
     display: block;
     position: absolute;
     z-index: 1;
-    background-color: white;
-    border: 1pt solid black;
+    background: white;
+    border: 1px solid black;
     width: 160px;
 }
 
@@ -45,5 +45,31 @@ div#menu li li {
 }
 
 li a.active {
-    background-color: lightgray;
+    background-color: lightgrey;
+}
+
+body {
+    font—family: sans—serif;
+    font-size: 90%;
+    max—width: 75%;
+    margin-left: 12.58;
+}
+
+
+div#imgBiblio {
+    float: right;
+}
+
+#citazione {
+    float: left;
+    width: 65%;
+    text-align: justify;
+}
+
+blockquote > p{
+    font-style: italic;
+}
+
+h1 {
+    border-bottom: #000 1px dashed;
 }
