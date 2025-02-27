@@ -49,10 +49,10 @@ li a.active {
 }
 
 body {
-    font—family: sans—serif;
+    font-family: sans—serif;
     font-size: 90%;
-    max—width: 75%;
-    margin-left: 12.58;
+    max-width: 75%;
+    margin-left: 12.5%;
 }
 
 
@@ -72,4 +72,20 @@ blockquote > p{
 
 h1 {
     border-bottom: #000 1px dashed;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: transparent;
+}
+
+table td {
+    border-top: black 1px solid  ;
+    padding: 1.5em;
+    vertical-align: top;
+}
+table th{
+    text-align: left;
+    padding: 1em;
 }
