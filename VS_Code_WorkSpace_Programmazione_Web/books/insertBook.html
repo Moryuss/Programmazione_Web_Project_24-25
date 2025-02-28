@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Biblios :: Insert new book</title>
+    <meta charset="UTF-8" />
+
+    <!-- Styles -->
+    <link href="../css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="menu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li>
+          <a class="active" href="#">My Library</a>
+          <ul>
+            <li><a class="active" href="books.html">Books List</a></li>
+            <li><a href="../authors/authors.html">Authors List</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <h1>Insert new book</h1>
+    <form action="pippo.html" method="post">
+      <input name="title" type="text" value="Metti il titolo" />
+      <select name="author_id">
+        <option value="1">Pippo</option>
+        <option value="7">Pluto</option>
+        <option value="17">Paperino</option>
+      </select>
+      <input type="submit" />
+      <!--si fa una queryString: lega i diversi input (usa &)-->
+      <textarea></textarea>
+    </form>
+  </body>
+</html>

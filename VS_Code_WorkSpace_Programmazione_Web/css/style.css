@@ -171,7 +171,7 @@ table td
                                          spostata 1px verso il basso e con 
                                          sfocatura minima; effetto combinato
                                          di illuminazione dall'alto */
-        0 0 0 1px #3caa3c,          /* ombra verde scura di 1px con 
+        0 0 1px #3caa3c,          /* ombra verde scura di 1px con 
                                          nessun offset o sfocatura, con bordo
                                          netto; effetto aggiunge un bordo netto
                                          intorno all'elemento */
