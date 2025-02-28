@@ -89,3 +89,40 @@ table th{
     text-align: left;
     padding: 1em;
 }
+
+
+.button {
+ color: rgb(0, 0, 0);
+ text-decoration: none;
+ border: rgba(0, 0, 0, 0.2) 1px solid;
+ padding: 0.7em 1.5em;
+ background: rgb(254, 254, 255) linear-gradient(#f4f4f4, #aeb3cf);
+ border-radius: 10%;
+}
+
+.button:hover{
+    color: rgb(51, 51, 51);
+    border: 1px solid brown;
+    background: beige;
+    box-shadow: .2en .2en .2en rgba(0,0,0, 0.1);    
+}
+
+.button-delete{
+    color: black;
+    background: red;
+}
+
+.button-add{
+    color: black;
+    background: lightblue;
+    animation: pulsate 1.2s linear infinite;
+}
+
+.button-add:hover{
+    animation-play-state: paused;
+    color: black;
+}
+
+@keyframes pulsate {
+    50% {color: #fff; text-shadow: 0 -1px rgba(0, 0, 0, .3)  0 0 5px #fffd, 0 0 8px #fff};
+}
