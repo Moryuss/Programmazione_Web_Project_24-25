@@ -192,6 +192,9 @@ p.insertItem {
 
 /*
 css rules for forms
+RICORDATI che l'ordine in cui son oapplicati é quello del CSS, non del HTML
+MA per essere corerenti sull'HTML metti l'ordine che segui: quindi
+class="bottone submit" significa che vorrei trovare prima .bottone poi .summit 
 */
 
 .form-group {
@@ -226,4 +229,8 @@ select {
 label {
   display: block;
   margin-bottom: 0.5em;
+}
+
+.submit {
+  height: 3em;
 }
