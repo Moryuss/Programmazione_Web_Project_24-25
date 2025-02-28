@@ -1,56 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
   <head>
-    <title>My online Library</title>
+    <title>Biblios :: Books' List</title>
     <meta charset="UTF-8" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="../css/style.css" />
+    <link href="../css/style.css" rel="stylesheet" />
   </head>
-
   <body>
     <div id="menu">
       <ul>
         <li><a href="../index.html">Home</a></li>
         <li>
-          <a href="#">My Library</a>
+          <a class="active" href="#">My Library</a>
           <ul>
-            <li><a class="active" href="./books.html">Books List</a></li>
+            <li><a class="active" href="books.html">Books List</a></li>
             <li><a href="../authors/authors.html">Authors List</a></li>
           </ul>
         </li>
       </ul>
     </div>
-    <h1>My books List</h1>
-    <p>
-      <a class="button button-add" ="insertBook.html">Create new Book</a>
+
+    <h1>My Books List</h1>
+
+    <p class="insertItem">
+      <a class="bottone bottone-add" href="insertBook.html">Create new book</a>
     </p>
     <table>
       <tr>
-        <th>Titolo</th>
-        <th>Cognome Autore</th>
-      </tr>
-      <tr>
-        <td>Titolo 1</td>
-        <td>Cognome 1</td>
-        <td><a class="button" href="editBook.html">Edit</a></td>
+        <td>A sapiente vel est.</td>
+        <td>Towne</td>
         <td>
-          <a class="button button-delete" href="deleteBook.html">Delete</a>
+          <a class="bottone" href="editBook.html">Edit</a>
+        </td>
+        <td>
+          <a class="bottone bottone-delete" href="deleteBook.html">Delete</a>
         </td>
       </tr>
       <tr>
-        <td>Titolo 2</td>
-        <td>Cognome 2</td>
-        <td><a class="button" href="editBook.html">Edit</a></td>
+        <td>Ab perferendis.</td>
+        <td>Schroeder</td>
         <td>
-          <a class="button button-delete" href="deleteBook.html">Delete</a>
+          <a class="bottone" href="editBook.html">Edit</a>
+        </td>
+        <td>
+          <a class="bottone bottone-delete" href="deleteBook.html">Delete</a>
         </td>
       </tr>
       <tr>
-        <td>Titolo 3</td>
-        <td>Cognome 3</td>
-        <td><a class="button" href="editBook.html">Edit</a></td>
+        <td>Ab voluptas.</td>
+        <td>Kutch</td>
         <td>
-          <a class="button button-delete" href="deleteBook.html">Delete</a>
+          <a class="bottone" href="editBook.html">Edit</a>
+        </td>
+        <td>
+          <a class="bottone bottone-delete" href="deleteBook.html">Delete</a>
+        </td>
+      </tr>
+      <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>
+          <a class="bottone" href="editBook.html">Edit</a>
+        </td>
+        <td>
+          <a class="bottone bottone-delete" href="deleteBook.html">Delete</a>
         </td>
       </tr>
     </table>
