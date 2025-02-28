@@ -21,16 +21,23 @@
     </div>
 
     <h1>Insert new book</h1>
-    <form action="pippo.html" method="post">
-      <input name="title" type="text" value="Metti il titolo" />
-      <select name="author_id">
-        <option value="1">Pippo</option>
-        <option value="7">Pluto</option>
-        <option value="17">Paperino</option>
-      </select>
-      <input type="submit" />
+    <form name="book" action="pippo.html" method="get">
+      <div>
+        <label for="title">Title</label>
+        <input type="text" name="title" placeholder="Metti il titolo" />
+      </div>
+      <div>
+        <label for="Author_id">Author</label>
+        <select name="author_id">
+          <option value="1">Pippo</option>
+          <option value="7">Pluto</option>
+          <option value="17">Paperino</option>
+        </select>
+      </div>
+      <input type="submit" value="Save" />
+      <a href="books.html" class="bottone bottone-delete">Cancel</a>
       <!--si fa una queryString: lega i diversi input (usa &)-->
-      <textarea></textarea>
+      <!--EXAMPLE: pippo.html?title=Metti+il+titolo&author_id=1-->
     </form>
   </body>
 </html>
