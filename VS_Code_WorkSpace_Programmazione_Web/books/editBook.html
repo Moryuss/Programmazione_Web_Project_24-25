@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Biblios :: Books' List</title>
+        <title>Biblios :: Edit Book</title>
         <meta charset="UTF-8">
 
                 <!-- Fogli di stile -->
@@ -24,6 +24,7 @@ and open the template in the editor.
         <!-- Bootstrap Icons -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
+
     <body>
         <div id="menu">
             <ul>
@@ -38,53 +39,31 @@ and open the template in the editor.
         </div>
 
         <h1>
-            My Books List
+            Edit book
         </h1>
-        
-        <p class="insertItem">
-            <a class="bottone bottone-add" href="insertBook.html">Create new book</a>
-        </p>
-        <table>
-            <tr>
-                <td>A sapiente vel est.</td>
-                <td>Towne</td>
-                <td>
-                    <a class="bottone" href="editBook.html">Edit</a>
-                </td>
-                <td>
-                    <a class="bottone bottone-delete" href="deleteBook.html">Delete</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Ab perferendis.</td>
-                <td>Schroeder</td>
-                <td>
-                    <a class="bottone" href="editBook.html">Edit</a>
-                </td>
-                <td>
-                    <a class="bottone bottone-delete" href="deleteBook.html">Delete</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Ab voluptas.</td>
-                <td>Kutch</td>
-                <td>
-                    <a class="bottone" href="editBook.html">Edit</a>
-                </td>
-                <td>
-                    <a class="bottone bottone-delete" href="deleteBook.html">Delete</a>
-                </td>
-            </tr>
-            <tr>
-                <td>...</td>
-                <td>...</td>
-                <td>
-                    <a class="bottone" href="editBook.html">Edit</a>
-                </td>
-                <td>
-                    <a class="bottone bottone-delete" href="deleteBook.html">Delete</a>
-                </td>
-            </tr>
-        </table>
+
+        <form name="book" method="get" action="books.html">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input class="form-control" type="text" name="title"/>
+            </div>
+            <div class="form-group">
+                <label for="author_id">Author</label>
+                <select name="author_id">
+                    <option value="5">Bailey</option>
+                    <option value="2">Kemmer</option>
+                    <option value="4">Kutch</option>
+                    <option value="3">Schroeder</option>
+                    <option value="8">Stehr</option>
+                    <option value="9">Thompson</option>
+                    <option value="10">Towne</option>
+                    <option value="6">Von</option>
+                    <option value="7">Wilkinson</option>
+                    <option value="1">Witting</option>
+                </select>
+            </div>
+            <input class="submit" type="submit" value="Save">
+            <a class="bottone bottone-delete" href="books.html">Cancel</a>
+        </form>
     </body>
 </html>

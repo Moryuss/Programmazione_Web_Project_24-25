@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Biblios :: Insert Book in the List</title>
+        <title>Biblios :: Insert Author in the List</title>
         <meta charset="UTF-8">
 
                 <!-- Fogli di stile -->
@@ -31,39 +31,28 @@ and open the template in the editor.
                 <li><a href="../index.html">Home</a></li>
                 <li><a class="active" href="#">My Library</a>
                     <ul>
-                        <li><a class="active" href="books.html">Books List</a></li>
-                        <li><a href="../authors/authors.html">Authors List</a></li>
+                        <li><a href="../books/books.html">Books List</a></li>
+                        <li><a class="active" href="authors.html">Authors List</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
 
         <h1>
-            Insert new book
+            Insert new author
         </h1>
 
-        <form name="book" method="get" action="books.html">
+        <form name="author" method="get" action="authors.html">
             <div class="form-group">
-                <label for="title">Title</label>
-                <input class="form-control" type="text" name="title"/>
+                <label for="firstname">First Name</label>
+                <input class="form-control" type="text" name="firstname"/>
             </div>
             <div class="form-group">
-                <label for="author_id">Author</label>
-                <select name="author_id">
-                    <option value="5">Bailey</option>
-                    <option value="2">Kemmer</option>
-                    <option value="4">Kutch</option>
-                    <option value="3">Schroeder</option>
-                    <option value="8">Stehr</option>
-                    <option value="9">Thompson</option>
-                    <option value="10">Towne</option>
-                    <option value="6">Von</option>
-                    <option value="7">Wilkinson</option>
-                    <option value="1">Witting</option>
-                </select>
+                <label for="lastname">Last Name</label>
+                <input class="form-control" type="text" name="lastname"/>
             </div>
             <input class="submit" type="submit" value="Save">
-            <a class="bottone bottone-delete" href="books.html">Cancel</a>
+            <a class="bottone bottone-delete" href="authors.html">Cancel</a>
         </form>
     </body>
 </html>
