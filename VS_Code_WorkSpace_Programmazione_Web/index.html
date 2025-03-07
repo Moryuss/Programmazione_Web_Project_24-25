@@ -11,8 +11,9 @@ and open the template in the editor.
 
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no"
+      content="width=device-width, initial-scale=1.0,user-scalable=no"
     />
+
     <!-- Fogli di stile -->
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link
@@ -52,7 +53,7 @@ and open the template in the editor.
         <div class="collapse navbar-collapse" id="menu">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html"
+              <a class="nav-link active" aria-current="page" href="index.html"
                 >Home</a
               >
             </li>
@@ -68,66 +69,59 @@ and open the template in the editor.
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="./books/books.html"
-                    >Book list</a
+                  <a class="dropdown-item" href="books/books.html"
+                    >Books List</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./authors/authors.html"
-                    >Author List</a
+                  <a class="dropdown-item" href="authors/authors.html"
+                    >Authors List</a
                   >
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>
 
-    <header class="header-sezione">
-      <h1>My online Library</h1>
-    </header>
+    <div class="container-fluid">
+      <header class="header-sezione">
+        <h1>My online Library</h1>
+      </header>
+    </div>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-9">
-                <div class="citazione">
-                <p>
-                    A very simple example of a website created during the Web Programming
-                    and Digital Services course. The site lists the books I am currently
-                    reading or have read, along with the list of authors who have populated
-                    my readings and imagination. The website will continue to grow during
-                    this semester, completing itself gradually thanks to the implementation
-                    of web technologies that will be introduced in the course. Enjoy!
-                </p>
-                <blockquote>
-                    <p>
-                    Sow an act, and you reap a habit; sow a habit, and you reap a
-                    character; sow a character, and you reap a destiny.
-                    </p>
-                    <small>[Indian proverb]</small>
-                </blockquote>
-                </div>
-            </div>
-        <div class="col-lg-3 col-sm-12">
-            <div class="imgBiblio">
-                <img class="img-responsive"src="img/pretty-4-th.jpg" />
-            </div>
+      <div class="row">
+        <div class="col-lg-9 col-sm-12">
+          <div class="citazione">
+            <p>
+              A very simple example of a website created during the Web
+              Programming and Digital Services course. The site lists the books
+              I am currently reading or have read, along with the list of
+              authors who have populated my readings and imagination. The
+              website will continue to grow during this semester, completing
+              itself gradually thanks to the implementation of web technologies
+              that will be introduced in the course. Enjoy!
+            </p>
+            <blockquote>
+              <p>
+                Sow an act, and you reap a habit; sow a habit, and you reap a
+                character; sow a character, and you reap a destiny.
+              </p>
+              <small>[Indian proverb]</small>
+            </blockquote>
+          </div>
         </div>
+        <div class="col-lg-3 col-sm-12">
+          <div class="imgBiblio">
+            <img
+              class="img-thumbnail img-responsive"
+              src="img/pretty-4-th.jpg"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
