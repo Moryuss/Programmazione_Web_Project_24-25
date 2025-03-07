@@ -51,7 +51,7 @@ table td {
 /*
     CSS rules for buttons
 */
-
+/* 
 .bottone {
   color: rgb(68, 68, 68);
   text-decoration: none;
@@ -109,17 +109,17 @@ table td {
 
 p.insertItem {
   text-align: right;
-}
+} */
 
 /*
     CSS rules for forms (edit/create pages)
 */
 
-.form-group {
+/* .form-group {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-
+/*
 input.form-control {
   display: block;
   width: 98%;
@@ -173,4 +173,4 @@ p.confirm {
   margin-top: 2.5em;
   margin-bottom: 2em;
   text-align: center;
-}
+} */
